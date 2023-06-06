@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    background-image:url("melkie-sxemy-na-golubom-fone.jpg") ;
+}
+
+
+.btn {
+    background: #222;
+    padding: 15px 20px;
+    color: beige;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+.btn:hover {
+    opacity: .8;
+    color: lightgreen;
+}
+a {
+    background: #222;
+    padding: 15px 20px;
+    color: beige;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: inherit;
+}
+a:hover {
+    opacity: .8;
+    color: lightgreen;
+   
+}
+
+/*a:visited {
+    color: lightblue;
+}*/
+
+.conteiner {
+    max-width: 750px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.picture {
+    width: 240px;
+    border-radius: 28px;
+    box-shadow: 5px 5px 15px rgba(0, 100, 150, 0.70);
+}
+
+.info {
+background: rgb(181, 241, 208);
+display: flex;
+
+}
+
+.info-text {
+    margin-left: 30px;
+}
+
+@media (max-width: 650px){
+.info { 
+    display: block;
+    text-align: center;
+
+}
+}
+.info-text h4 {
+margin-bottom: 10px;
+}
+
+.info-text h1 {
+font-family: 'Times New Roman', Times, serif;
+margin-bottom: 15px;
+}
+
+.info-text p {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+   /* color: rgb(11, 11, 68);*/
+    margin-bottom: 10px;
+}
+
+.table {
+    width: 100%;
+    border: 2px solid black;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3) {
+color: lightsalmon;
+} 
+.contacts {
+border-radius: 5px;
+background: mediumorchid;
+padding: 15px;
+}
+
+
+.card {
+background: lightblue;
+border-radius: 5px;
+margin-bottom: 20px;
+padding: 40px 20px;
+box-sizing: border-box;
+}
+
+
+
+.card1 {
+background: mediumaquamarine;
+border-radius: 4px;
+padding: 40px;
+}
+
+.card2 {
+background: lightgreen;
+border-radius: 5px;
+}
+
+.hobby {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.hobby li {
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.form-row h2 {
+    text-align: center;
+}
+
+.form-row {
+margin-bottom: 10px;
+display: flex;
+}
+.form-row .form-group {
+  /*  display: inline-block;*/
+    margin-right: 20px;
+    width: 50%;
+}
+
+.form-row .form-group:last-child {
+    margin-right: 0
+    ;
+}
+
+@media (max-width: 650px){
+.form-row {
+    display: block;
+
+}
+.form-row .form-group {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+}
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color:rgba(0, 100, 150, 0.70)
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: 'Times New Roman', Times, serif;
+}
